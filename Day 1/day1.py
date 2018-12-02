@@ -26,7 +26,7 @@ def loopOverInput():
         # Answer to part 2
         if frequency in frequencyList:
             loop = False
-            print(frequency)
+            print("Part 2: ",frequency)
             return
         
         # Frequency not in the list yet, append it
@@ -40,5 +40,5 @@ while loop:
     # Print the frequency after first pass
     # Answer to part 1
     if iteration == 2: 
-        print(frequency)
+        print("Part 1:",frequency)
     loopOverInput()
